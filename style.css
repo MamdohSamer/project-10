@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(242, 242, 242);
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 655px;
+    flex-wrap:wrap;
+}
+main{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+
+}
+.content{
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+}
+.one{
+    background-color: rgb(226, 133, 37);
+    border-radius: 10px 0 0 10px;
+
+}
+.two{
+    background-color: rgb(1, 105, 114);
+
+}
+.three{
+    background-color: rgb(0, 64, 63);
+    border-radius: 0 10px 10px 0;
+
+}
+h2{
+    font-family: sans-serif;
+    color: rgb(233, 247, 251);
+}
+p{
+    font-family: sans-serif;
+    color: rgb(233, 247, 251);
+    line-height: 27px;
+
+}
+button{
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+.one button{
+    color: rgb(226, 133, 37);
+}
+.two button{
+    color:rgb(1, 105, 114);
+}
+.three button{
+    color: rgb(0, 64, 63);
+}
+button:hover{
+    background-color: unset;
+    color:rgb(233, 247, 251) ;
+}
